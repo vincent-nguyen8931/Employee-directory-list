@@ -9,7 +9,6 @@ function Main() {
             
             <EmployeeListContainer />
      
-        // employlee list will map through all employee
         </div>
     )
 }

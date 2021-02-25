@@ -1,6 +1,7 @@
 // defining a component
 import React from "react";
 import EmployeeListItem from "./EmployeeListItem"
+import Header from "./Header"
 
 function EmployeeListContainer() {
     return (
@@ -8,8 +9,8 @@ function EmployeeListContainer() {
             <Header />
             
             <EmployeeListContainer />
-     
-        // employlee list will map through all employee
+           
+        {/* employlee list will map through all employee}*/}
         </div>
     )
 }
